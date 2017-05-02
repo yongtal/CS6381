@@ -1,0 +1,7 @@
+xterm h1s1
+xterm h2s1
+xterm h3s1
+xterm h4s1
+xterm h5s1
+xterm h6s1
+xterm h7s1
