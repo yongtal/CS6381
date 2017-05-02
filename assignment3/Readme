@@ -1,0 +1,14 @@
+Usage:
+
+Plase extract all the files to ../Zookeeper/conf
+
+run xterm.sh to start mininet
+in mininet, input >> source cmd.txt to open every host's terminal.
+
+At h1s1, h2s1 and h3s1, please input: $ sh start1/2/3.sh  
+to start zookeeper on these three hosts.
+
+Then
+For h1s1,h2,h3, input $python server.py 1/2/3 to start server
+For h4s1,h5, input $python publisher.py 4/5 to start publisher
+For h6,h7, input $python subscriber.py 6/7 to start subscriber
