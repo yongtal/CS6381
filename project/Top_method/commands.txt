@@ -1,0 +1,6 @@
+h1s1 python mr_wordcount.py -p 5557 -m 3 -r 2 ca.txt &> h1s1.out &
+h2s1 python mr_mapworker.py 0 10.0.0.1 5557 &> h2s1.out &
+h3s1 python mr_mapworker.py 1 10.0.0.1 5557 &> h3s1.out &
+h4s1 python mr_mapworker.py 2 10.0.0.1 5557 &> h4s1.out &
+h5s1 python mr_reduceworker.py 0 10.0.0.1 5557 &> h5s1.out &
+h6s1 python mr_reduceworker.py 1 10.0.0.1 5557 &> h6s1.out &

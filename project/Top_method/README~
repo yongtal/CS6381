@@ -1,0 +1,11 @@
+Usage:
+
+open terminal, input:
+
+$sh run.sh
+
+in mininet, input:
+
+$source command.txt
+
+Then see h5s1.out, h6s1.out and result.csv for detailed result, and compare the result with result of traditional method
